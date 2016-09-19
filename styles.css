@@ -355,6 +355,7 @@ margin-bottom:15px;
 
 .feed__aside {
   min-width:50px;
+  padding-right: 50px;
 }
 
 .feed__content {

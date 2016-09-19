@@ -25,9 +25,12 @@ h3 {
   font-size:1.5rem;
 }
 
-a{
+a, a:visited, a:hover {
   text-decoration: none;
+  color: blue
 }
+
+
 
 p {
   margin: 0;
@@ -145,7 +148,7 @@ footer#main-footer:before {
 
 .feed__item {
   display:flex;
-margin-bottom:15px;
+  margin-bottom:15px;
 }
 
 .feed__aside {
@@ -191,6 +194,19 @@ margin-bottom:15px;
     flex-direction: column;
     margin-bottom:5px;
   }
+}
+
+/*Reference Design*/
+
+.reference {
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+}
+
+.reference__item {
+  display:flex;
+  margin-bottom:15px;
 }
 
 /* List styles */

@@ -1,0 +1,53 @@
+@media screen and (min-width:768px) {
+  /********************************
+  Container
+  ********************************/
+  .container{
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  /********************************
+  My Skills
+  ********************************/
+  .skills {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    width:100%;
+  }
+
+  .skills__item {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .skills__progress-bar {
+    width:100%;
+    max-width:250px;
+    height:20px;
+    margin:3px;
+    border:1px #9aa4a8 solid;
+  }
+
+  .skills__progress-fill {
+    background:#9aa4a8;
+    height:100%;
+  }
+
+  /********************************
+  My References
+  ********************************/
+
+  .reference__item {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .reference__name {
+
+  }
+
+}

@@ -1,0 +1,61 @@
+@media screen and (min-width:1024px) {
+  /********************************
+  Container
+  ********************************/
+  .container{
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  /********************************
+  My Info
+  ********************************/
+
+  .info__content {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+  }
+
+}
+
+
+@media screen and (min-width:1440px) {
+  /********************************
+  Container
+  ********************************/
+  .container{
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  /********************************
+  Footer
+  ********************************/
+  .mobile{
+    border: none;
+    text-align: center;
+    padding: 10px 0;
+    color: #8aa6ae;
+    font-size: 10px;
+  }
+
+  .fullscreen{
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px #14455D solid;
+    border-bottom: 2px #14455D solid;
+    margin: 0;
+    list-style: none;
+    padding: 10px 0;
+    margin-top: 50px;
+  }
+
+
+
+  .fullscreen span {
+    font-weight: bold;
+    color: #14455D;
+  }
+
+}

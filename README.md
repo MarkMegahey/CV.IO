@@ -1,6 +1,6 @@
 # webdevportfolio
 
-[Junior Web Dev CV](http://mark-megahey.github.io)
+[Junior Web Dev CV](https://marksdc.github.io/CV.IO/)
 
 
 
